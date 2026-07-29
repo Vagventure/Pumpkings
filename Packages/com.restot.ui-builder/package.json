@@ -1,0 +1,20 @@
+{
+  "name": "com.restot.ui-builder",
+  "version": "0.1.10",
+  "displayName": "Restot UI Builder",
+  "description": "Bootstrap-like UGUI layout components and editor tooling for building Unity UI from rows, columns, and registered prefabs.",
+  "unity": "6000.4",
+  "author": {
+    "name": "Restot"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Restot UI Builder Demo Notes",
+      "description": "Manual smoke-test notes for using the package with the demo UI prefabs.",
+      "path": "Samples~/DemoNotes"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f698e9b7b874882b6ed46df64b64399, type: 3}
+  m_Name: DefaultRewardCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::RewardCatalog
+  rewards:
+  - {fileID: 11400000, guid: fb70db21d63391440a6e45d4258b3cf7, type: 2}
+  - {fileID: 11400000, guid: 6acb50622c864841be7b78f2a03b6f30, type: 2}
+  - {fileID: 11400000, guid: 1fcf1f6a906743bb9da7cbb6af4648c2, type: 2}
+  - {fileID: 11400000, guid: 0a082755024e468290556b1ce086ba8a, type: 2}
+  - {fileID: 11400000, guid: 4638b8f7a3c4b914aad7436964b68364, type: 2}
+  - {fileID: 11400000, guid: fe8991560c8c4d6184e90b8cb0c4c6be, type: 2}
+  - {fileID: 11400000, guid: 7548f7cb002c2e34b91f2a013dbd6b68, type: 2}
+  - {fileID: 11400000, guid: f00b7c1fec894cdb90f2595e2375fd82, type: 2}
+  - {fileID: 11400000, guid: d7b54f0b2d4a4b21a88e19de88578157, type: 2}

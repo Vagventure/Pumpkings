@@ -1,0 +1,12 @@
+﻿<Solution>
+  <Project Path="MoreMountains.Tools.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="MoreMountains.Tools.Editor.csproj" />
+  <Project Path="Lofelt.NiceVibrations.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Lofelt.NiceVibrations.Demo.csproj" />
+  <Project Path="Lofelt.NiceVibrations.Editor.csproj" />
+  <Project Path="Restot.UIBuilder.Editor.csproj" />
+  <Project Path="Restot.UIBuilder.csproj" />
+  <Project Path="Restot.UIBuilder.Tests.Editor.csproj" />
+</Solution>

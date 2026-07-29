@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18eb5d745b1645f997d01db0ed6f4f60, type: 3}
+  m_Name: 1_LcoalResident_UnlockPosters
+  m_EditorClassIdentifier: Assembly-CSharp::EventDefinition
+  dialogueLines:
+  - speakerSide: 0
+    speaker: {fileID: 11400000, guid: 8ca95d8a2cf24104a6cc39c4ffed77f0, type: 2}
+    expression: 0
+    text: I've seen you out here picking up plastic for days. Most people barely
+      seem to notice it anymore.
+    voiceClip: {fileID: 0}
+  - speakerSide: 1
+    speaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+    expression: 0
+    text: I didn't either. Not really. Then I started picking it up and realized
+      just how much of it there is.
+    voiceClip: {fileID: 0}
+  - speakerSide: 0
+    speaker: {fileID: 11400000, guid: 8ca95d8a2cf24104a6cc39c4ffed77f0, type: 2}
+    expression: 0
+    text: Maybe that's where we start. Let's make people notice. We can put up posters
+      showing what's washing onto our beach.
+    voiceClip: {fileID: 0}
+  revealTextDuringEntrance: 1
+  playerChoiceSpeaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+  playerChoiceSpeakerSide: 1
+  playerChoiceExpression: 0
+  rewardTitle: 

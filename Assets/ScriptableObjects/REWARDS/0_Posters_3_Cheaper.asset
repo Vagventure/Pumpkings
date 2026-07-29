@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09603af12f0b460f8aba8f82fb3301b5, type: 3}
+  m_Name: 0_Posters_3_Cheaper
+  m_EditorClassIdentifier: 
+  path: 1
+  level: 3
+  icon: {fileID: 21300000, guid: 45d07297a40b34741814a900fe8ceda6, type: 3}
+  effectIcon: {fileID: 21300000, guid: 45d07297a40b34741814a900fe8ceda6, type: 3}
+  title: Printing Company
+  subtitle: He offers cheaper prints
+  description: Flyers cost 2 less gold.
+  category: 1
+  effectType: 3
+  targetValue: 0
+  shopTargetPath: 1
+  flatValue: 2
+  percentValue: 0
+  intervalSeconds: 0

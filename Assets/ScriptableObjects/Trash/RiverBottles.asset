@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51350be7d70178f479475342263c13f4, type: 3}
+  m_Name: RiverBottles
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnData
+  prefab: {fileID: -4322767524922868844, guid: ce761e557557eb04683f174bc17768f9, type: 3}
+  spawnInterval: 1.5
+  spawnLimit: 12
+  sprites:
+  - {fileID: 21300000, guid: d8993a1c6bd159b48add36928ad5bf72, type: 3}
+  - {fileID: 21300000, guid: 2d900d5a240a46c43a952621b8e77825, type: 3}
+  - {fileID: 21300000, guid: 7b697d36efc1e9741899ebd1bb5ae2a8, type: 3}
+  - {fileID: 21300000, guid: 090d854ecbfb76b40bd2aeaf723c1a67, type: 3}

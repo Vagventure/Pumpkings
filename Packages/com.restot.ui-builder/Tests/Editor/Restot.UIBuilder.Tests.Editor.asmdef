@@ -1,0 +1,23 @@
+{
+  "name": "Restot.UIBuilder.Tests.Editor",
+  "rootNamespace": "Restot.UIBuilder.Tests.Editor",
+  "references": [
+    "Restot.UIBuilder",
+    "Restot.UIBuilder.Editor",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
