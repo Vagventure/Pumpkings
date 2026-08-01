@@ -662,7 +662,7 @@ MonoBehaviour:
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
   - requiredValue: 120
-    goal: There will be no more reawrds sorry.
+    goal: 
     eventDefinition: {fileID: 11400000, guid: b7c33dc6e6e4c3e46b943da9804ef79a, type: 2}
     completionEffect: 2
     rewardItems: []
@@ -674,17 +674,40 @@ MonoBehaviour:
         where it's coming from.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
-  goldGatheredEvents:
-  - requiredValue: 5
-    goal: Purchase posters to spread awareness
-    eventDefinition: {fileID: 11400000, guid: 39593ccde8d7a734cabbc83aa9d9f2a7, type: 2}
+  - requiredValue: 10
+    goal: 
+    eventDefinition: {fileID: 11400000, guid: 181e4ffb7c174ea4abf2a932162267ef, type: 2}
     completionEffect: 0
-    rewardItems:
-    - {fileID: 11400000, guid: fb70db21d63391440a6e45d4258b3cf7, type: 2}
+    rewardItems: []
+    choicesSide: 1
+    dialogueChoices:
+    - rewardPath: 6
+      buttonText: Hire Recycling Patrol
+      playerLine: The crew is ready. They'll collect and sort as much as they can.
+      playerVoiceClip: {fileID: 0}
+    musicStateAfterCompletion: {fileID: 0}
+  - requiredValue: 15
+    goal: 
+    eventDefinition: {fileID: 11400000, guid: abf3ea645a827d5459f8bd7d27743aa1, type: 2}
+    completionEffect: 0
+    rewardItems: []
     choicesSide: 1
     dialogueChoices:
     - rewardPath: 1
       buttonText: Accept the offer.
+      playerLine: I think that is amazing! Thanks a lot. Let's do it.
+      playerVoiceClip: {fileID: 0}
+    musicStateAfterCompletion: {fileID: 0}
+  goldGatheredEvents:
+  - requiredValue: 5
+    goal: 
+    eventDefinition: {fileID: 11400000, guid: 39593ccde8d7a734cabbc83aa9d9f2a7, type: 2}
+    completionEffect: 0
+    rewardItems: []
+    choicesSide: 0
+    dialogueChoices:
+    - rewardPath: 1
+      buttonText: Accept offer
       playerLine: I think that is amazing! Thanks a lot. Let's do it.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
@@ -702,13 +725,25 @@ MonoBehaviour:
         clean up before the storm.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
-  - requiredValue: 1
+  - requiredValue: 125
     goal: 
-    eventDefinition: {fileID: 11400000, guid: a6dc3681edc553f42ba7a177be9ded24, type: 2}
-    completionEffect: 2
+    eventDefinition: {fileID: 11400000, guid: fde08aea8db58c348953a5248c2f96ff, type: 2}
+    completionEffect: 0
     rewardItems: []
     choicesSide: 1
     dialogueChoices: []
+    musicStateAfterCompletion: {fileID: 0}
+  - requiredValue: 130
+    goal: 
+    eventDefinition: {fileID: 11400000, guid: 4326f82e1922b9e46aff03650963eb9d, type: 2}
+    completionEffect: 0
+    rewardItems: []
+    choicesSide: 1
+    dialogueChoices:
+    - rewardPath: 0
+      buttonText: 
+      playerLine: 
+      playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
 --- !u!114 &113433169
 MonoBehaviour:

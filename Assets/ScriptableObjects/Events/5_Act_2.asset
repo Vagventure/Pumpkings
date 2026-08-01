@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18eb5d745b1645f997d01db0ed6f4f60, type: 3}
+  m_Name: 5_Act_2
+  m_EditorClassIdentifier: Assembly-CSharp::EventDefinition
+  dialogueLines:
+  - speakerSide: 1
+    speaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+    expression: 1
+    text: 'The water is rising.
+
+'
+    voiceClip: {fileID: 0}
+  - speakerSide: 1
+    speaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+    expression: 1
+    text: Every piece of waste left near the river is being swept into the current.
+    voiceClip: {fileID: 0}
+  - speakerSide: 1
+    speaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+    expression: 1
+    text: 'If we wait until the storm passes, most of it will already be on its way
+      to the ocean.
+
+
+'
+    voiceClip: {fileID: 0}
+  revealTextDuringEntrance: 1
+  playerChoiceSpeaker: {fileID: 11400000, guid: e6a39e25f4dd43348f54a26e95f17904, type: 2}
+  playerChoiceSpeakerSide: 1
+  playerChoiceExpression: 0
+  rewardTitle: 

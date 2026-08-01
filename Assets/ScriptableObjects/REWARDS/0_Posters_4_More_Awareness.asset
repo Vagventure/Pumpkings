@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09603af12f0b460f8aba8f82fb3301b5, type: 3}
-  m_Name: 0_Posters_3_Cheaper
+  m_Name: 0_Posters_4_More_Awareness
   m_EditorClassIdentifier: 
   path: 1
-  level: 3
+  level: 4
   icon: {fileID: 21300000, guid: 45d07297a40b34741814a900fe8ceda6, type: 3}
   effectIcon: {fileID: 21300000, guid: 45d07297a40b34741814a900fe8ceda6, type: 3}
   title: Poster
-  subtitle: 'PUT '
-  description: Flyers cost 2 less gold.
+  subtitle: PUT UP AWARENESS POSTERS
+  description: Expand the campaign throughout the wider community.
   category: 1
-  effectType: 3
+  effectType: 4
   targetValue: 0
-  shopTargetPath: 1
-  flatValue: 2
+  shopTargetPath: 0
+  flatValue: 4
   percentValue: 0
   intervalSeconds: 0
