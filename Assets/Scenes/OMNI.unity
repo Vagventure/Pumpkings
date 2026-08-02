@@ -635,6 +635,7 @@ MonoBehaviour:
         of our local problem!
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 50
     goal: Keep Spreading awareness.
     eventDefinition: {fileID: 11400000, guid: 91af66a9c689cf849a4ef71b1e666d60, type: 2}
@@ -661,6 +662,7 @@ MonoBehaviour:
         people beyond the beach.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 120
     goal: 
     eventDefinition: {fileID: 11400000, guid: b7c33dc6e6e4c3e46b943da9804ef79a, type: 2}
@@ -674,6 +676,7 @@ MonoBehaviour:
         where it's coming from.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 10
     goal: 
     eventDefinition: {fileID: 11400000, guid: 181e4ffb7c174ea4abf2a932162267ef, type: 2}
@@ -686,10 +689,11 @@ MonoBehaviour:
       playerLine: The crew is ready. They'll collect and sort as much as they can.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 15
     goal: 
     eventDefinition: {fileID: 11400000, guid: abf3ea645a827d5459f8bd7d27743aa1, type: 2}
-    completionEffect: 0
+    completionEffect: 2
     rewardItems: []
     choicesSide: 1
     dialogueChoices:
@@ -698,6 +702,7 @@ MonoBehaviour:
       playerLine: I think that is amazing! Thanks a lot. Let's do it.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: river
   goldGatheredEvents:
   - requiredValue: 5
     goal: 
@@ -711,6 +716,7 @@ MonoBehaviour:
       playerLine: I think that is amazing! Thanks a lot. Let's do it.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   threatProducedEvents:
   - requiredValue: 35
     goal: 
@@ -725,6 +731,7 @@ MonoBehaviour:
         clean up before the storm.
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 125
     goal: 
     eventDefinition: {fileID: 11400000, guid: fde08aea8db58c348953a5248c2f96ff, type: 2}
@@ -733,6 +740,7 @@ MonoBehaviour:
     choicesSide: 1
     dialogueChoices: []
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
   - requiredValue: 130
     goal: 
     eventDefinition: {fileID: 11400000, guid: 4326f82e1922b9e46aff03650963eb9d, type: 2}
@@ -745,6 +753,7 @@ MonoBehaviour:
       playerLine: 
       playerVoiceClip: {fileID: 0}
     musicStateAfterCompletion: {fileID: 0}
+    musicLayerKeyToActivate: 
 --- !u!114 &113433169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,12 +1886,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302676981}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 838632024}
+  m_Father: {fileID: 944452238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &302676983
 AudioSource:
@@ -4767,7 +4776,6 @@ Transform:
   - {fileID: 631329687}
   - {fileID: 1142939331}
   - {fileID: 1077940512}
-  - {fileID: 302676982}
   - {fileID: 944452238}
   - {fileID: 1795015898}
   - {fileID: 601766092}
@@ -5148,7 +5156,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 302676982}
   m_Father: {fileID: 838632024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &944452239

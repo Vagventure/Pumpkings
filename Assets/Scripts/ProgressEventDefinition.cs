@@ -7,7 +7,7 @@ public enum ProgressEventCompletionEffect
 {
     None,
     StartWind,
-    GoToNextStage
+    GoToNextStage,
 }
 
 [Serializable]
@@ -31,6 +31,8 @@ public class ProgressEventDefinition
 
     [Header("Music")]
     [SerializeField] private MusicStateDefinition musicStateAfterCompletion;
+    [SerializeField] private string musicLayerKeyToActivate;   // NEW
+
 
     public int RequiredValue => requiredValue;
     public string Goal => goal;
@@ -40,6 +42,7 @@ public class ProgressEventDefinition
     public DialogueSpeakerSide ChoicesSide => choicesSide;
     public IReadOnlyList<DialogueChoiceDefinition> DialogueChoices => dialogueChoices;
     public MusicStateDefinition MusicStateAfterCompletion => musicStateAfterCompletion;
+    public string MusicLayerKeyToActivate => musicLayerKeyToActivate;   // NEW
 
     public void Validate()
     {

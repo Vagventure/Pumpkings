@@ -62,6 +62,7 @@ public class MusicTrackDefinition
 [Serializable]
 public class MusicLayerDefinition
 {
+    [SerializeField] private string layerKey;   // NEW
     [SerializeField] private MusicTrackDefinition track = new();
     [SerializeField] private MusicLayerTriggerType triggerType = MusicLayerTriggerType.Always;
     [SerializeField] private float startAtStateTimeSeconds;
@@ -69,6 +70,7 @@ public class MusicLayerDefinition
     [SerializeField, Range(0f, 100f)] private float fadeOutAtPercent = 40f;
 
     public MusicTrackDefinition Track => track;
+    public string LayerKey => layerKey;   // NEW
     public MusicLayerTriggerType TriggerType => triggerType;
     public float StartAtStateTimeSeconds => startAtStateTimeSeconds;
     public float FadeInAtPercent => fadeInAtPercent;
@@ -93,5 +95,6 @@ public enum MusicLayerTriggerType
 {
     Always,
     StateTime,
-    CurrentPollutionPercent
+    CurrentPollutionPercent,
+    Manual
 }

@@ -269,12 +269,20 @@ public class MusicController : MonoBehaviour
     {
         ProgressEventDefinition definition = context.Definition;
 
-        if (definition == null || definition.MusicStateAfterCompletion == null)
+        if (definition == null)
         {
             return;
         }
 
-        SwitchToState(definition.MusicStateAfterCompletion);
+        if (!string.IsNullOrEmpty(definition.MusicLayerKeyToActivate))
+        {
+            ActivateLayer(definition.MusicLayerKeyToActivate);
+        }
+
+        if (definition.MusicStateAfterCompletion != null)
+        {
+            SwitchToState(definition.MusicStateAfterCompletion);
+        }
     }
 
     private void HandlePollutionChanged(int currentPollution, int maxPollution)
@@ -349,5 +357,33 @@ public class MusicController : MonoBehaviour
         public MusicLayerDefinition Layer { get; }
         public int Handle { get; }
         public bool Active { get; set; }
+    }
+
+    public void ActivateLayer(string layerKey)
+    {
+        if (string.IsNullOrEmpty(layerKey))
+        {
+            return;
+        }
+
+        AudioManager audioManager = AudioManager.Instance;
+
+        if (audioManager == null)
+        {
+            Debug.LogWarning("MusicController: Cannot activate layer because AudioManager is missing.");
+            return;
+        }
+
+        for (int i = 0; i < activeLayers.Count; i++)
+        {
+            LayerRuntime runtime = activeLayers[i];
+
+            if (runtime.Layer != null
+                && runtime.Layer.TriggerType == MusicLayerTriggerType.Manual
+                && runtime.Layer.LayerKey == layerKey)
+            {
+                FadeInLayer(audioManager, runtime);
+            }
+        }
     }
 }
